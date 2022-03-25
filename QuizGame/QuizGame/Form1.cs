@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuizGame
 {
-    public partial class Form1 : Form
+    public partial class FrmInit : Form
     {
-        public Form1()
+        public FrmInit()
         {
             InitializeComponent();
         }
