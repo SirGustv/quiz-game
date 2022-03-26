@@ -35,21 +35,23 @@
             // 
             // btnInit
             // 
-            this.btnInit.Location = new System.Drawing.Point(970, 624);
+            this.btnInit.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnInit.Location = new System.Drawing.Point(1001, 652);
             this.btnInit.Name = "btnInit";
             this.btnInit.Size = new System.Drawing.Size(132, 56);
             this.btnInit.TabIndex = 0;
             this.btnInit.Text = "Iniciar";
-            this.btnInit.UseVisualStyleBackColor = true;
+            this.btnInit.UseVisualStyleBackColor = false;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(42, 624);
+            this.btnExit.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnExit.Location = new System.Drawing.Point(842, 652);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(132, 56);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Sair";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // lblQG
@@ -67,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1145, 720);
             this.Controls.Add(this.lblQG);
             this.Controls.Add(this.btnExit);
