@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuizGame.Questions
+namespace QuizGame
 {
-    public partial class frmQuestion1 : Form
+    public partial class frmQG : Form
     {
-        public frmQuestion1()
+        public frmQG()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
