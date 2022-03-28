@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuizGame.Questions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,16 +11,26 @@ using System.Windows.Forms;
 
 namespace QuizGame
 {
-    public partial class frmQG : Form
+    public partial class frmQGInit : Form
     {
-        public frmQG()
+        public frmQGInit()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            VariaveisGlobais.Acertos = 0;
+            VariaveisGlobais.Erros = 0;
+
+            frmQ1 q1 = new frmQ1();
+            this.Hide();
+            q1.ShowDialog();
         }
     }
 }

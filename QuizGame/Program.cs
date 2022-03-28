@@ -17,7 +17,7 @@ namespace QuizGame
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmQG());
+            Application.Run(new frmQGInit());
         }
     }
 }
