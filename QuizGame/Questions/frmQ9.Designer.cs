@@ -115,10 +115,10 @@
             this.rbtnCerta.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rbtnCerta.Location = new System.Drawing.Point(27, 215);
             this.rbtnCerta.Name = "rbtnCerta";
-            this.rbtnCerta.Size = new System.Drawing.Size(188, 29);
+            this.rbtnCerta.Size = new System.Drawing.Size(198, 29);
             this.rbtnCerta.TabIndex = 1;
             this.rbtnCerta.TabStop = true;
-            this.rbtnCerta.Text = "Besoro Rinoceronte";
+            this.rbtnCerta.Text = "Besouro Rinoceronte";
             this.rbtnCerta.UseVisualStyleBackColor = true;
             // 
             // lblQ9
